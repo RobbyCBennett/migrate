@@ -16,8 +16,6 @@ Clone the repository, which includes the migrate script, and an example environm
 Create an environment script and edit it, especially `migration_sql_dir`, `database`, and `user`
 
 ```sh
-cd MY_EXISTING_REPO_HERE
-git submodule add git@github.com:RobbyCBennett/migrate.git
 cd migrate
 cp .env.postgresql.sh .env.sh
 edit .env.sh
